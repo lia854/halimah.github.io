@@ -11,6 +11,10 @@
     <!-- Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -39,7 +43,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/IMG_20190822_103813 (2).jpg" alt="Halimah" width="250" class="rounded-circle img-thumbnail" />
+      <img src="img/IMG_20190822_103813 (2).jpg" alt="Halimah" width="250" class="rounded-circle img-thumbnail" data-aos="fade-in" />
       <h1 class="display-4">Halimah Tusadiyah Wibowo</h1>
       <p class="lead fw-bold">| A Professional Eater and Rebahaners |</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -54,7 +58,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="zoom-in-up">
         <div class="row text-center mb-3 pb-5">
           <div class="col">
             <h2>About Me</h2>
@@ -108,7 +112,7 @@
 
     <!-- Projects -->
     <section id="projects" style="background-color: #ffe4c4">
-      <div class="container">
+      <div class="container" data-aos="zoom-in-up">
         <div class="row text-center mb-5">
           <div class="col">
             <h2>My Projects</h2>
@@ -238,12 +242,14 @@
 
     <!-- Akhir Footer -->
 
-    <h1></h1>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzhBApRUlXF9o2uKHqOMofkFjENMk6DdX7eVuSscGxk1dTiTyYF1hpHT_7sL2EEsRxn/exec'
